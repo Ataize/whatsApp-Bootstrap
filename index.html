@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Web</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Num total de 12 colunas eu divido de acordo com o tamanho que eu quero que as colunas ocupem. Por isso col - 8 col-4-->
+        <div class="col-md-4 px-0" id="panel-left">
+          <header class="d-flex">
+            <img src="assets/contact.svg" alt="Avatar" />
+          </header>
+
+          <div id="search"></div>
+
+          <div class="list-group">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-flex align-items-center"
+            >
+              <img src="assets/hcode-photo.svg" alt="Avatar" />
+              <div class="d-flex flex-column flex-fill">
+                <h6>Hcode</h6>
+                <small>Djalma: Bora gravar curso...</small>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <span class="timeago">16:15</span>
+                <span class="badge bg-success rounded-pill">1</span>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-flex align-items-center"
+            >
+              <img src="assets/contact.svg" alt="Avatar" />
+              <div class="d-flex flex-column flex-fill">
+                <h6>Aluno</h6>
+                <small>Estou estudando Bootstrap</small>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <span class="timeago">Ontem</span>
+                <span class="badge bg-success rounded-pill"></span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8 px-0 d-flex flex-column">
+          <header class="d-flex align-items-center">
+            <img src="assets/contact.svg" alt="Avatar" />
+            <div class="d-flex flex-column flex-fill">
+              <h6>Hcode</h6>
+              <small class="timeago"
+                >Visto por último: Quinta-feira às 16:00</small
+              >
+            </div>
+          </header>
+
+          <main></main>
+
+          <footer></footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
